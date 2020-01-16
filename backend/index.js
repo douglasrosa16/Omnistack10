@@ -1,4 +1,3 @@
-  
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
@@ -17,3 +16,6 @@ app.listen(3333);//localhost:3333 (minha porta)
 //Query Params: request.query (Filtros, ordenação, paginação,...) - GET
 //Route Params: request.params (Identificar um recurso na alteração ou remoção)
 //Body: request.body (Dados para criação ou alteração de um registro)
+
+
+                
